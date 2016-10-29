@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "TwitterToolkit",
+  "description": "Share Link Via Twitter",
+  "version": "1.0",  
+
+ "icons": {"64" : "icon.png"},
+   "background": {
+    "scripts": ["background.js"]
+ },
+ "permissions" : [
+ "contextMenus"
+ ]
+}
